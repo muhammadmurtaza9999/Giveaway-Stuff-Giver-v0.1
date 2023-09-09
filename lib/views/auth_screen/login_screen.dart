@@ -1,7 +1,7 @@
-import 'package:emart_seller/const/const.dart';
-import 'package:emart_seller/views/home_screen/home.dart';
-import 'package:emart_seller/views/widgets/our_button.dart';
-import 'package:emart_seller/views/widgets/text_style.dart';
+import 'package:gas_giver/const/const.dart';
+import 'package:gas_giver/views/home_screen/home.dart';
+import 'package:gas_giver/views/widgets/our_button.dart';
+import 'package:gas_giver/views/widgets/text_style.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 

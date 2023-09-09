@@ -1,4 +1,4 @@
-const appname = "GAS Giver App",
+const appname = "Giveaway Stuff Giver",
     login = "Login",
     welcome = "Hi, Welcome to",
     email = "Email",

@@ -1,5 +1,5 @@
-import 'package:emart_seller/const/const.dart';
-import 'package:emart_seller/views/widgets/text_style.dart';
+import 'package:gas_giver/const/const.dart';
+import 'package:gas_giver/views/widgets/text_style.dart';
 
 Widget ourButton({title, color = purpleColor, onPress}) {
   return ElevatedButton(

@@ -1,4 +1,4 @@
-import 'package:emart_seller/const/const.dart';
+import 'package:gas_giver/const/const.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

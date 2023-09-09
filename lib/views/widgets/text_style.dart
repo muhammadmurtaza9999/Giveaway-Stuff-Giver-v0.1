@@ -1,4 +1,4 @@
-import 'package:emart_seller/const/const.dart';
+import 'package:gas_giver/const/const.dart';
 
 Widget normalText({text,color = Colors.white,size = 14.0}) {
   return "$text".text.color(color).size(size).make();
