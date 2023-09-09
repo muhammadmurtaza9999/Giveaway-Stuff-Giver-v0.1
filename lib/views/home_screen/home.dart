@@ -1,9 +1,9 @@
 import 'package:gas_giver/const/const.dart';
 import 'package:gas_giver/controllers/home_controller.dart';
 import 'package:gas_giver/views/home_screen/home_screen.dart';
-import 'package:gas_giver/views/items_screen/items_screen.dart';
+import 'package:gas_giver/views/products_screen/products_screen.dart';
 import 'package:gas_giver/views/profile_screen/profile_screen.dart';
-import 'package:gas_giver/views/request_screen/request_screen.dart';
+import 'package:gas_giver/views/orders_screen/orders_screen.dart';
 import 'package:get/get.dart';
 
 class Home extends StatelessWidget {
@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
     var controller = Get.put(HomeController());
 
     var navScreens = [
-      const HomeScreen(), const ItemsScreen(), const RequestScreen(), const ProfileScreen()
+      const HomeScreen(), const ProductsScreen(), const OrdersScreen(), const ProfileScreen()
     ];
 
     var bottomNavbar = [
