@@ -1,5 +1,7 @@
 import 'package:gas_giver/const/const.dart';
+import 'package:gas_giver/views/orders_screen/order_details.dart';
 import 'package:gas_giver/views/widgets/appbar_widget.dart';
+import 'package:get/get.dart';
 import 'package:intl/intl.dart' as intl;
 
 import '../widgets/text_style.dart';
@@ -18,14 +20,14 @@ class OrdersScreen extends StatelessWidget {
           child: Column(
             children: List.generate(
               20 , (index) => ListTile(
-
-              onTap: () {},
+              onTap: () {
+                Get.to(() => const OrderDetails());
+              },
               tileColor: textfieldGrey,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
-              // leading: Image.asset(imgProduct, width: 100, height: 100, fit: BoxFit.cover),
-              title: boldText(text: "0300141947", color: purpleColor),
+              title: boldText(text: "03001419470", color: purpleColor),
               subtitle: Column(
                   children: [
                     Row(
