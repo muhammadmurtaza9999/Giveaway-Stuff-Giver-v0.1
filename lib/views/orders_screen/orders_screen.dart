@@ -2,8 +2,8 @@ import 'package:gas_giver/const/const.dart';
 import 'package:gas_giver/views/orders_screen/order_details.dart';
 import 'package:gas_giver/views/widgets/appbar_widget.dart';
 import 'package:get/get.dart';
+//ignore: depend on referenced packages
 import 'package:intl/intl.dart' as intl;
-
 import '../widgets/text_style.dart';
 
 class OrdersScreen extends StatelessWidget {

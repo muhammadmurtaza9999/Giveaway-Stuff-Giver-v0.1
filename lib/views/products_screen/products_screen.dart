@@ -1,6 +1,8 @@
 import 'package:gas_giver/const/const.dart';
+import 'package:gas_giver/views/products_screen/product_details.dart';
 import 'package:gas_giver/views/widgets/appbar_widget.dart';
 import 'package:gas_giver/views/widgets/text_style.dart';
+import 'package:get/get.dart';
 
 class ProductsScreen extends StatelessWidget {
   const ProductsScreen({super.key});
@@ -20,8 +22,12 @@ class ProductsScreen extends StatelessWidget {
       physics: const BouncingScrollPhysics(),
       child: Column(
       children: List.generate(
-      20 , (index) => ListTile(
-      onTap: () {},
+      20 ,
+      (index) => Card(
+       child: ListTile(
+      onTap: () {
+        Get.to(() => const ProductDetails());
+      },
       leading: Image.asset(imgProduct, width: 100, height: 100, fit: BoxFit.cover),
       title: boldText(text: "Product title", color: fontGrey),
       subtitle: normalText(text: "\$40.0", color: darkGrey),
@@ -50,6 +56,7 @@ class ProductsScreen extends StatelessWidget {
       ),
     ),
         ),
+    ),
     );
   }
 }
